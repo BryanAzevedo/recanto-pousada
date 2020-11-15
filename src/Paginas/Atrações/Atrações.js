@@ -1,7 +1,7 @@
-import React from 'react';
-import './Atrações.css';
-import Footer from '../../Components/Footer/Footer';
-import CardAtrações from '../../Components/CardAtrações/CardAtrações';
+import React from "react";
+import "./Atrações.css";
+import Footer from "../../Components/Footer/Footer";
+import CardAtrações from "../../Components/CardAtrações/CardAtrações";
 function Atrações() {
   return (
     <>
@@ -14,11 +14,11 @@ function Atrações() {
               title="Tirolesa"
               title2="tirolesa"
               image="https://images.pexels.com/photos/2041759/pexels-photo-2041759.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-              apresentacao="Uma otima aventura para quem gosta de sentir um frio na barriga,e adora uma adrenalina passando pelo sangue"
+              apresentacao="Uma ótima aventura para quem gosta de sentir um frio na barriga,e adora uma adrenalina passando pelo sangue"
               detalhamento="Nessa atividade de aventura, o praticante é preso por mosquetões a uma cadeirinha de alpinismo, e se 
          desloca com roldanas de um ponto a outro por um cabo aéreo posicionado horizontalmente. O cabo, é claro, fica nas alturas, 
          normalmente conectado a árvores, ao ar livre. Isso significa que o praticante tem a sensação de “voar” sobre o local. 
-         Muitas tirolesas estão acima de florestas, lagos e outras lindas paisagens, o que torna a experiência mais prazerosa.s
+         Muitas tirolesas estão acima de florestas, lagos e outras lindas paisagens, o que torna a experiência mais prazerosa.
 
          "
             />
