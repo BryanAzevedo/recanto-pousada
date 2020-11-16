@@ -7,7 +7,7 @@ function Atrações() {
   return (
     <>
       <div className="base-atracoes">
-        <h1>ATRAÇÕES</h1>
+        <h1>Atrações</h1>
         <div className="cards-atracoes">
           <div className="cards-linha">
             <CardAtrações

@@ -4,21 +4,29 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-left: 6%;
+  padding-bottom: 2vh;
+  padding-top: 15vh;
 }
 .cards-atracoes {
+  padding-top: 6vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   background: #6e3b3b;
-  border-radius: 0%;
-  padding: 1%;
+  border-radius: 20px;
+  padding-left: 0%;
+
   flex-grow: 1;
-  max-width: 80%;
   position: relative;
+  max-width: 80%;
+
   right: 20vh;
 }
 .base-atracoes > h1 {
   display: flex;
+  padding-bottom: 70vh;
+  padding-top: 35vh;
   justify-content: center;
   font: normal 40pt Sansita Swashed;
   text-align: center;
@@ -28,7 +36,7 @@
   text-shadow: rgba(0, 0, 0, 0.589) 2px 2px 2px;
   position: relative;
   top: -90vh;
-  left: 80vh;
+  left: 75vh;
 }
 
 .cards-linha {
