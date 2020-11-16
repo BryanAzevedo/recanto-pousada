@@ -4,7 +4,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-left: 6%;
+  padding-left: 3%;
   padding-bottom: 2vh;
   padding-top: 15vh;
 }
@@ -28,15 +28,15 @@
   padding-bottom: 70vh;
   padding-top: 35vh;
   justify-content: center;
-  font: normal 40pt Sansita Swashed;
+  font: normal 70pt Sansita Swashed;
   text-align: center;
-  font-size: 4vw;
+  font-size: 5vw;
   color: rgb(77, 29, 29);
   height: 15%;
   text-shadow: rgba(0, 0, 0, 0.589) 2px 2px 2px;
   position: relative;
   top: -90vh;
-  left: 75vh;
+  left: 80vh;
 }
 
 .cards-linha {
