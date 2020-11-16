@@ -1,20 +1,16 @@
-import React from "react";
-import Logo from "../../images/logo.png";
-import { FaFacebook, FaInstagram, FaWhatsapp } from "react-icons/fa";
-import { MdEmail } from "react-icons/md";
-import "./Footer.css";
-import { white } from "material-ui/styles/colors";
+import React from 'react';
+import Logo from '../../images/sem_fundo.png';
+import { FaFacebook, FaInstagram, FaWhatsapp } from 'react-icons/fa';
+import { MdEmail } from 'react-icons/md';
+import './Footer.css';
+import { white } from 'material-ui/styles/colors';
 
 const Footer = () => {
   return (
     <div className="footer">
       <footer className="rodape">
-        <img
-          className="Logo-footer
-      "
-          src={Logo}
-          alt="Logo"
-        />
+        <img className="Logo-footer
+      " src={Logo} alt="Logo" />
         <div className="contatos">
           <div className="icon">
             <FaWhatsapp style={{ fontSize: 35, color: white, margin: 10 }} />
