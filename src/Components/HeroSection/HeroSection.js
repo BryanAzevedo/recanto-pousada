@@ -1,11 +1,11 @@
-import React from 'react';
-import '../../App.css';
-import 'react-responsive-carousel/lib/styles/carousel.min.css';
-import { Carousel as Carrossel } from 'react-responsive-carousel';
-import './HeroSection.css';
-import Maps from '../Maps/Maps';
-import Logo from '../../images/logo.png';
-import Footer from '../../Components/Footer/Footer';
+import React from "react";
+import "../../App.css";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel as Carrossel } from "react-responsive-carousel";
+import "./HeroSection.css";
+import Maps from "../Maps/Maps";
+import Logo from "../../images/logo.png";
+import Footer from "../../Components/Footer/Footer";
 
 function HeroSection() {
   return (
@@ -15,7 +15,12 @@ function HeroSection() {
         <h2>Um lugar onde seu conforto é prioridade</h2>
         <div className="fundo">
           <div className="Imagens">
-            <Carrossel showArrows={true} autoPlay={true} infiniteLoop={true}>
+            <Carrossel
+              showArrows={true}
+              autoPlay={true}
+              infiniteLoop={true}
+              showThumbs={false}
+            >
               <div>
                 <img
                   src="https://images.pexels.com/photos/279746/pexels-photo-279746.jpeg?cs=srgb&dl=pexels-pixabay-279746.jpg&fm=jpg"
@@ -68,11 +73,10 @@ function HeroSection() {
           <br />
           <img className="Logo" src={Logo} alt="Logo" />
           <br />
-          <br /> A pousada Recanto de Minas traz para você o melhor serviço de
-          hospedagem e ao mesmo tempo possibilita um contato intenso com a
-          natureza. Possuímos os melhores quartos da região e lindas trilhas com
-          cachoeiras que só Minas Gerais pode oferecer. Não perca essa
-          oportunidade! b b b b b b b b b b b b b b b b b b b b b b b b b b b b
+          Recanto de Minas traz para você o melhor serviço de hospedagem e ao
+          mesmo tempo possibilita um contato intenso com a natureza. Possuímos
+          os melhores quartos da região e lindas trilhas com cachoeiras que só
+          Minas Gerais pode oferecer. Não perca essa oportunidade! b b b b b b b
           b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b
           b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b
           b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b
@@ -83,7 +87,8 @@ function HeroSection() {
           b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b
           b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b
           b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b
-          b b b b b b b b b b b b b b b b b b b b b b b b b
+          b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b
+          b b b b b b b b b b b
           <br /> <br /> <br />
         </p>
 

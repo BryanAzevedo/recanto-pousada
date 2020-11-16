@@ -42,6 +42,8 @@
   width: 70%;
   display: table-row;
   position: relative;
+  padding-bottom: 6vh;
+  padding-left: 1vw;
 }
 
 .fundo {
