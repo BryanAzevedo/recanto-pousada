@@ -76,20 +76,13 @@ function HeroSection() {
           Recanto de Minas traz para você o melhor serviço de hospedagem e ao
           mesmo tempo possibilita um contato intenso com a natureza. Possuímos
           os melhores quartos da região e lindas trilhas com cachoeiras que só
-          Minas Gerais pode oferecer. Não perca essa oportunidade! b b b b b b b
-          b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b
-          b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b
-          b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b
-          b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b
-          b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b
-          b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b
-          b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b
-          b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b
-          b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b
-          b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b
-          b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b
-          b b b b b b b b b b b
-          <br /> <br /> <br />
+          Minas Gerais pode oferecer. Nossos hospedes podem desfrutar de um
+          ótimo café da manhã na própria pousada com nossa deliciosa comida
+          regional e também aproveitar os ótimos restaurantes presentes na nossa
+          cidade. Possuímos uma área de lazer aconchegante com uma linda vista
+          para a natureza. Temos quartos para solteiros, casais e toda a
+          família. Não perca essa oportunidade!
+          <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
         </p>
 
         <div className="localizacao">
