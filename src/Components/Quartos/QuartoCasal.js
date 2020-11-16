@@ -10,7 +10,12 @@ function QuartoCasal() {
       <h1>Quarto Casal</h1>
       <div className="fundo-quartos">
         <div className="Imagens-quartos">
-          <Carrossel showArrows={true} autoPlay={true} infiniteLoop={true}>
+          <Carrossel
+            showArrows={true}
+            autoPlay={true}
+            infiniteLoop={true}
+            showThumbs={false}
+          >
             <div>
               <img
                 src="https://images.pexels.com/photos/279746/pexels-photo-279746.jpeg?cs=srgb&dl=pexels-pixabay-279746.jpg&fm=jpg"

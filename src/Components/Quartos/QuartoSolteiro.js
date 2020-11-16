@@ -10,7 +10,12 @@ function QuartoSolteiro() {
       <h1>Quarto Solteiro</h1>
       <div className="fundo-quartos">
         <div className="Imagens-quartos">
-          <Carrossel showArrows={true} autoPlay={true} infiniteLoop={true}>
+          <Carrossel
+            showArrows={true}
+            autoPlay={true}
+            infiniteLoop={true}
+            showThumbs={false}
+          >
             <div>
               <img
                 src="https://images.pexels.com/photos/2029722/pexels-photo-2029722.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
