@@ -2,19 +2,19 @@ import React from "react";
 import "./Atrações.css";
 import Footer from "../../Components/Footer/Footer";
 import CardAtrações from "../../Components/CardAtrações/CardAtrações";
+
 function Atrações() {
   return (
     <>
-      <div className="baseAtrações">
-        <h1>Atrações</h1>
-
-        <div className="coluna1">
-          <div className="cartao1">
+      <div className="base-atracoes">
+        <h1>ATRAÇÕES</h1>
+        <div className="cards-atracoes">
+          <div className="cards-linha">
             <CardAtrações
               title="Tirolesa"
               title2="tirolesa"
               image="https://images.pexels.com/photos/2041759/pexels-photo-2041759.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-              apresentacao="Uma ótima aventura para quem gosta de sentir um frio na barriga,e adora uma adrenalina passando pelo sangue"
+              apresentacao="Uma otima aventura para quem gosta de sentir um frio na barriga,e adora uma adrenalina passando pelo sangue"
               detalhamento="Nessa atividade de aventura, o praticante é preso por mosquetões a uma cadeirinha de alpinismo, e se 
          desloca com roldanas de um ponto a outro por um cabo aéreo posicionado horizontalmente. O cabo, é claro, fica nas alturas, 
          normalmente conectado a árvores, ao ar livre. Isso significa que o praticante tem a sensação de “voar” sobre o local. 
@@ -37,39 +37,32 @@ function Atrações() {
 
          "
             />
+          </div>
+
+          <div className="cards-linha">
             <CardAtrações
-              className="card2"
               title="Stand up Paddle "
               title2="Stand up Paddle"
               image="https://images.pexels.com/photos/1751550/pexels-photo-1751550.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-              apresentacao="Uma adrenalina e tanto para quem tem coragem!"
-              detalhamento="Em seguida, quando o elástico atinge sua potência máxima, ele puxa o praticante para cima, 
-         fazendo-o cair mais uma ou duas vezes. Assim, a prática em si dura um pouco mais de um minuto, mas o frio na barriga começa muito antes.
-        Afinal, todo o processo de preparo do material e a escolha do melhor lugar para saltar já colocam a sua expectativa lá em cima, 
-         fazendo com que você produza ainda mais adrenalina para o grande momento.
-         Viu só como pular de bungee jump pode ser uma aventura e tanto? Se você é uma das pessoas 
-         que não deixa passar qualquer oportunidade de aventura, não deixe de experimentar essa atividade 
-         para estimular o seu contato com a natureza e sentir na pele toda a liberdade que ela carrega.
+              apresentacao="Uma ótima atividade para quem gosta de equilíbrio e desafios internos!!  Venha se emocionar com o nosso incrível Stand up Paddle "
+              detalhamento="O stand up paddle é uma variação do surf em que o praticante, em pé na prancha, se movimenta com o auxílio de um remo. Pode ser praticado em lagoas, corredeiras ou no mar. A origem do esporte remonta ao Havaí, nos anos 1960, onde os instrutores de surf buscavam uma forma de acompanhar seus alunos durante as aulas. Estar em pé na prancha garantia uma melhor visão do mar e da turma toda.
 
          "
             />
-          </div>
-        </div>
-
-        <div className="coluna2">
-          <div className="cartao2">
             <CardAtrações
               title="Caiaque"
               title2="caiaque"
               image="https://gooutside-static-cdn.akamaized.net/wp-content/uploads/sites/3/2018/09/oru-haven-tandem-kayak-2.jpg"
-              apresentacao="O caiaque é uma ótima forma de se desafiar nas aguas agitadas da nossa pousada"
+              apresentacao="O caiaque é uma ótima forma de se desafiar nas aguas agitadas da nossa pousada, pode ser praticado com toda família venha experimentar!"
               detalhamento="O caiaque é uma pequena embarcação a remos utilizada para lazer, 
          transporte e competições. Na vertente desportiva compreende várias modalidades como velocidade, 
          slalom, adaptada, descida, maratona, oceânica, onda, pólo, rafting e rodeio
         Esta embarcação começou a ficar famosa a partir da década de 1970, criada na Groenlândia
-
          "
             />
+          </div>
+
+          <div className="cards-linha">
             <CardAtrações
               title="Asa Delta"
               title2="Asa Delta"
@@ -82,7 +75,6 @@ function Atrações() {
          para aquecer o solo e, por consequência, o ar, que vai fazer o equipamento planar.
          Dessa forma, é possível se manter estável e deslizando pelo céu por um longo período, se for desejo de quem está no 
          controle da asa delta ou enquanto o Sol permitir.
-
          "
             />
             <CardAtrações
@@ -102,7 +94,6 @@ function Atrações() {
           </div>
         </div>
       </div>
-
       <Footer />
     </>
   );
